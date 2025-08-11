@@ -19,11 +19,11 @@ boot_splash/show_image=false
 boot_splash/fullsize=false
 boot_splash/use_filter=false
 config/icon="uid://doii142c7rfdr"
-config/windows_native_icon="res://icon.ico"
+config/windows_native_icon="res://Images/icon.ico"
 
 [autoload]
 
-Global="*res://global.tscn"
+Global="*res://Scenes/global.tscn"
 
 [display]
 

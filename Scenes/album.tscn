@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://b3i7trd7303gl"]
+
+[ext_resource type="Script" uid="uid://cdj7xft5auvtg" path="res://Scripts/album.gd" id="1_5p2gi"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uur71"]
+size = Vector2(88, 88)
+
+[node name="Album1" type="TextureRect"]
+offset_right = 88.0
+offset_bottom = 88.0
+expand_mode = 1
+script = ExtResource("1_5p2gi")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(44, 44)
+shape = SubResource("RectangleShape2D_uur71")
+
+[connection signal="input_event" from="Area2D" to="." method="_on_area_2d_input_event"]
