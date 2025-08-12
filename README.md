@@ -40,3 +40,9 @@ I plan on working on this project more, adding features, although it may be slow
 # Tutorial
 
 WIP
+
+# Extra
+
+Feel free to take the project and update it if you wish, and if you want to help me send me bugs and errors you find, alongside feature ideas.
+
+I hope you enjoy my program!
